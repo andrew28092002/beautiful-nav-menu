@@ -14,6 +14,7 @@ body{
     margin: 44vh auto;
     width: fit-content;
     background: #fff;
+    position: relative;
 }
 
 .navbar ul{
@@ -31,4 +32,17 @@ body{
     justify-content: center;
     align-items: center;
     color: #333;
+}
+
+#circle{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: linear-gradient(#e91e63, #9c27b0);
+    border-radius: 50%;
+    top: -35px;
+    left: 50%;
+    border: 6px solid #2e114c;
+    z-index: 9999;
+    transform: translateX(-50%);
 }
