@@ -52,4 +52,5 @@ body{
     align-items: center;
     color: #fff;
     font-size: 1.4rem;
+    transition: 0.8s;
 }
